@@ -10,12 +10,16 @@ namespace ClassOpdracht4
     {
         private GameScreen screen;
         
-
+        internal GameRenderer(GameScreen screen)
+        {
+            this.screen = screen;
+        }
         //maak hier een constructor aan!, kijk of je this nodig hebt (zie GameScreen voor hints en patronen)
 
         internal void SetScreen(GameScreen screen)
         {
-            //zorg ervoor dat de waarde van screen in currentScreen komt (gebruik =)
+            //zorg ervoor dat de waarde van screen in currentScreen komt 
+            this.screen=screen;
        
         }
 

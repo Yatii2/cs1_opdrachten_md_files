@@ -2,7 +2,6 @@ using System;
 
 namespace ClassOpdracht1
 {
-     ???
     //Schrijf met commentaar(//dit is commentaar) in deze file de naam bij elk onderdeel 
     internal class ClassStructureExercise
     {
@@ -26,6 +25,7 @@ namespace ClassOpdracht1
                 Console.WriteLine(i.ToString());
             }
         }
+    
 
         internal double DistBetweenPoints(int x1, int y1, int x2, int y2)
         {

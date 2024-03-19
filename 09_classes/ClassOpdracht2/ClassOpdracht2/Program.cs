@@ -7,10 +7,15 @@ namespace ClassOpdracht2
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
-            //maak hier een variable aan met type ShopGreeter
 
-            //roep de function greetcustomer aan
-			????
+
+            ShopGreeter Greeter = new ShopGreeter();
+            Greeter.GreetCustomer();
+            
+
+            
+
+           
         }
     }
 }
